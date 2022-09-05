@@ -150,5 +150,14 @@ color: #9A6B69;
 .inputdiv {
   width: 230px;
 }
+.p {
+  text-align: center;
+  font: normal normal 600 14px/24px Open Sans;
+  letter-spacing: 0px;
+  margin: 10px;
+  padding: 5px;
+  color: #9A6B69;
+  width: 28rem;
+}
 }
 
