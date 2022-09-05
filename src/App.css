@@ -1,0 +1,154 @@
+
+
+.App {
+  background: transparent linear-gradient(136deg, #FCF3F3 0%, #FFFFFF 49%, #FAF1F0 100%) 0% 0% no-repeat padding-box;
+  height: 100vh;
+ 
+}
+.circle {
+  width: 60px;
+  height: 39px;
+  border: 2px solid #E7A09E;
+  border-radius: 50%;
+}
+
+.maindiv2{
+  display: flex;
+justify-content: center;
+flex-direction: row;
+}
+.text{
+  text-align: center;
+font: normal normal medium 20px/28px Avenir;
+letter-spacing: 6px;
+color: #5F5A5A;
+}
+.sub1 {
+  position: relative;
+  top: 30px;
+  left: 30px;
+  width: 230px;
+  display: flex;
+  flex-direction: row;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  align-items: flex-start;
+}
+.weR{
+font: normal normal 300 64px/90px Avenir;
+letter-spacing: 19.2px;
+color: #D2A1A2;
+}
+.coming{
+font: normal normal medium 64px/90px Avenir;
+letter-spacing: 19.2px;
+color: #393334;
+}
+.contain {
+  width: 419px;
+  text-align: left;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+}
+.inputdiv {
+  border: 1px solid #9A6B69;
+  border-radius: 29px;
+  width: 320px;
+  padding: 14px;
+  font-size: 16px;
+  height: 20px;
+}
+.seconddiv img{
+  height: 100vh;
+  width: 100%;
+}
+
+.btn {
+  background: #E7A09E 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 29px;
+  width: 69px;
+  padding: 14px;
+  font-size: 16px;
+  height: 50px;
+  position: relative;
+  right: 62px;
+  border: none;
+  color: white;
+}
+
+p{
+  text-align: left;
+font: normal normal 600 13px/26px Open Sans;
+letter-spacing: 0px;
+color: #9A6B69;
+}
+
+.section{
+  position: relative;
+}
+
+
+
+
+.flex-item {
+ 
+  flex: 50%;
+}
+.seconddiv{
+  position: relative;
+}
+.sub {
+  position: absolute;
+  max-width: 400px;
+  left: 60px;
+  text-align: left;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+  .subdiv {
+    top: 73px;
+    left: 0px;
+    max-width: 450px;
+}
+.subdiv2 {
+  top: -199px;
+  left: 250px;
+}
+.contain {
+  text-align: center;
+  position: initial;
+  width: 100%;
+}
+.btn {
+  background: #E7A09E 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 29px;
+  width: 69px;
+  padding: 14px;
+  font-size: 16px;
+  height: 50px;
+  position: relative;
+  right: 62px;
+  border: none;
+  color: white;
+}
+
+.seconddiv img {
+  margin-top: 50px;
+  height: 100vh;
+  width: 100%;
+}
+.inputdiv {
+  width: 230px;
+}
+}
+
